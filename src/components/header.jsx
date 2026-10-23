@@ -32,7 +32,7 @@ export const Header = ({ toggleTheme, darkMode }) => {
           value={inputCity}
           onChange={(e) => setInputCity(e.target.value)}
           onKeyDown={handleKeyPress}
-          className="p-2 rounded-l-lg bg-gray-100 dark:bg-zinc-600 text-gray-800 dark:text-white border border-gray-300 dark:border-zinc-700 focus:outline-none border-none"
+          className="p-2 rounded-l-lg bg-gray-100 dark:bg-zinc-600 text-gray-800 dark:text-white border border-gray-300 dark:border-zinc-700 focus:outline-hidden border-none"
         />
         <button
           onClick={handleSearch}
